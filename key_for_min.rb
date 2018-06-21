@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
 
   name_hash.each do |name, age|
     if tiny_value == nil || age < tiny_value 
+      tiny_value = age
       name_hash[:name] 
     end
   end
