@@ -4,9 +4,12 @@
 
 
 def key_for_min_value(name_hash)
+  lowest_key = nil
+  tiny_value = nil
+
 
   name_hash.each do |name, age|
-    if !name_hash[:age]
+    if tiny_value == nil || value 
       name_hash[:name] 
     end
   end
