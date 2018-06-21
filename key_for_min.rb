@@ -20,8 +20,5 @@ end
 
 
 
-#method needs to iterate and compare each age to collect the min age and return the #name of #that person. 
-
-
 
 
